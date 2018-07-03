@@ -7,8 +7,8 @@ import static java.lang.Math.pow;
 /**
  * Created by User on 02.04.2018.
  */
-public class Main {
-    public static int it=0;
+public class Main{
+    public static int it = 0;
 
     static float f(float x){
         return (float)(5*pow(x,6)-36*pow(x,5)-165/2*pow(x,4)-60*pow(x,3)+36);
@@ -18,20 +18,20 @@ public class Main {
         return (float) (30*pow(x,5)-180*pow(x,4)-330*pow(x,3)-180*pow(x,2));
     }
 
-    public static float min(float x_0,float x_1,float x_2){
-        if (f(x_0) < f(x_1)){
+    public static float min(float x_0, float x_1, float x_2){
+        if ( f(x_0) < f(x_1 )){
             if (f(x_0) < f(x_2)){
                 return x_0;
             }
-            else{
+            else {
                 return x_2;
             }
         }
-        else{
+        else {
             if (f(x_1) < f(x_2)){
                 return x_1;
             }
-            else{
+            else {
                 return x_2;
             }
         }
@@ -118,7 +118,6 @@ public class Main {
 
             }
             mu = (f_der(a2) + w - z) / (f_der(a2) - f_der(a1) + 2 * w);
-
             if (mu < 0.0f) {
                 alfa = a2;
             }
@@ -155,17 +154,17 @@ public class Main {
         System.out.println("Метод квадратичной интерполяции");
         it = 0;
         float eps = 0.01f;
-        float x_ = quadraticInterpolation(x_0, eps);
-        System.out.println("x =" + x_);
-        System.out.println("f(x)=" + f(x_));
+        float res_x = quadraticInterpolation(x_0, eps);
+        System.out.println("x =" + res_x);
+        System.out.println("f(x)=" + f(res_x));
         System.out.println("Количество итераций " + it);
 
         System.out.println("Метод кубической интерполяции");
         it = 0;
         eps = 0.04f;
-        x_ = qubicInterpolation(x_0, eps);
-        System.out.println("x =" + x_);
-        System.out.println("f(x)=" + f(x_));
+        res_x = qubicInterpolation(x_0, eps);
+        System.out.println("x =" + res_x);
+        System.out.println("f(x)=" + f(res_x));
         System.out.println("Количество итераций " + it);
     }
 }
