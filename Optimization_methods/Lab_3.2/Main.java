@@ -7,7 +7,7 @@ import static java.lang.Math.pow;
 /**
  * Created by User on 02.04.2018.
  */
-public class Main32 {
+public class Main {
     public static int it=0;
 
     static float f(float x){
