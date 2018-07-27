@@ -1,0 +1,6 @@
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightMain.java
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightData.java
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightPartitioner.java
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightReducer.java
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightGroupingComparator.java
+/home/anastasiya/IdeaProjects/Lab2/src/main/java/bmstu/hadoop/lab2/FlightMapper.java
