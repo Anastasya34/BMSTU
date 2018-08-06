@@ -1,0 +1,7 @@
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportGroupingComparator.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportJoinMapper.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportPartitioner.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportMain.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/RaceJoinMapper.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportComparable.java
+/home/anastasiya/IdeaProjects/Lab3/src/main/java/bmstu/hadoop/lab3/AirportReducer.java
